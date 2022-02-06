@@ -7,10 +7,9 @@ def body(cv, aboutMe, dataScience, riskManagement, jobExperience, projects):
     cv.setFont('aktivGrotiskRegular', 8)
     cv.drawString(165*mm, 194*mm, 'Programming')
 
-    cv.setFont('aktivGrotiskRegular', 14)
-    cv.drawString(164*mm, 185*mm, 'Finance')
-    cv.setFont('aktivGrotiskRegular', 11)
-    cv.drawString(157*mm, 180*mm, '(Risk Managament)')
+    cv.setFont('aktivGrotiskRegular', 12)
+    cv.drawString(161*mm, 185*mm, 'Data Science')
+    cv.drawString(157*mm, 180*mm, 'Risk Managament')
 
     cv.setFont('aktivGrotiskRegular', 15)
     cv.drawString(151*mm, 168*mm, 'Math and Statistics')
@@ -59,7 +58,7 @@ def body(cv, aboutMe, dataScience, riskManagement, jobExperience, projects):
 
     #### Data Science Courses ####
     cv.setFont('aktivGrotiskLight', 15)
-    cv.drawString(71*mm, 128*mm, 'Courses in Data Science:')
+    cv.drawString(71*mm, 128*mm, 'Courses in Data Science')
     cv.drawImage(r'images\blue.png', 71*mm, 127*mm, 59*mm, 0.2*mm)
 
     hightCource = 121
@@ -72,7 +71,7 @@ def body(cv, aboutMe, dataScience, riskManagement, jobExperience, projects):
 
     #### Risk Management Courses ####
     cv.setFont('aktivGrotiskLight', 15)
-    cv.drawString(135*mm, 128*mm, 'Courses in Risk Management:')
+    cv.drawString(135*mm, 128*mm, 'Courses in Risk Management')
     cv.drawImage(r'images\blue.png', 135*mm, 127*mm, 69*mm, 0.2*mm)
 
     i=0
@@ -86,7 +85,7 @@ def body(cv, aboutMe, dataScience, riskManagement, jobExperience, projects):
     ################################ WORK ##########################################
     cv.setFont('aktivGrotiskLight', 26)
     cv.drawString(71*mm, 87*mm, 'LATEST JOB')
-    cv.drawImage(r'images\blue.png', 70*mm, 85*mm, 137*mm, 0.6*mm)
+    cv.drawImage(r'images\blue.png', 69*mm, 85*mm, 137*mm, 0.6*mm)
 
     #### Work Header ####
     cv.drawImage(r'images\work.png', 70*mm, 73*mm, 10*mm, 10*mm)
@@ -108,9 +107,9 @@ def body(cv, aboutMe, dataScience, riskManagement, jobExperience, projects):
     cv.setFont('aktivGrotiskLight', 10)
     for text in jobExperience:
         if i < 3:
-            cv.drawString(73*mm, (hightJob+(-hightSpaceJob*i))*mm, text)
+            cv.drawString(72*mm, (hightJob+(-hightSpaceJob*i))*mm, text)
         else:
-            cv.drawString(73*mm, (hightJob+(-hightSpaceJob*i)-2)*mm, text)
+            cv.drawString(72*mm, (hightJob+(-hightSpaceJob*i)-2)*mm, text)
         i+=1
 
 
@@ -137,7 +136,5 @@ def body(cv, aboutMe, dataScience, riskManagement, jobExperience, projects):
     cv.linkURL(projects[2][2], (135*mm, 7*mm, 200*mm, 13*mm))
 
     cv.setFont('aktivGrotiskLight', 7)
-    cv.drawString(128*mm, 6*mm, '*(SV)')
-    cv.drawString(199*mm, 6*mm, '*(SV)')
 
     return

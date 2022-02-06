@@ -30,7 +30,7 @@ pdfmetrics.registerFont(
 
 # Header:
 header =['FILIP FORSGREN',
-'M.Sc. in Industrial Engineering,',
+'M.Sc. in Industrial Engineering',
 'Data Science & Risk Management']
 
 contact = [
@@ -42,17 +42,17 @@ contact = [
 
 aboutMe = [
     'In my early school years, I recognized I have an aptitude for math and problem solving.',
-    'That lead me to spend my last 5 years in Umeå, Sweden studying Industrial Engineering.',
+    'That led me to spend 5 years in Umeå, Sweden studying Industrial Engineering.',
     'It was a natural choice since I wanted to learn more about finance',
     'while further developing my problem-solving skills.',
-    'During my years in Umeå I also learned to use programing',
+    'During my years in Umeå I also learned to use programming',
     'as a powerful tool for solving indicate tasks which',
     'requires extensive amounts of data.',
     'Having a deep understanding for statistics and finance',
     'combined with programming gives me the ability',
     'to make data-driven analysis which ultimately',
     'substantiates efficient decision-making.',
-    'This is what I want to work with in my future!'
+    'This is what I want to work with in the future!'
 ]
 
 programmingLanguages = {
@@ -91,7 +91,7 @@ riskManagement = [
 ]
 
 jobExperience = [
-    'My main assignment was to design product (elevators) together with customers',
+    'My main assignment was to design products (elevators) together with customers',
     'and coworkers around the world that met the customers specific requirements. ',
     'Also, I oversaw the quotations delivered to customers together with my superiors.',
     'My main takeaway from this experience was being part of a company that',
